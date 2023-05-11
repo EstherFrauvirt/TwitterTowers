@@ -2,22 +2,25 @@
 This program presents the user with a menu offering two options: Option 1 and Option 2.
 The user can continue selecting options until choosing to exit the program by selecting Option 3.
 
-# Program Architecture
+ # Program Architecture
 The program follows an object-oriented approach with the following classes:
 
-# Abstract Class: Shape
+Abstract Class: Shape
+
 This abstract class represents a generic shape.
 It contains the following methods:
 printScope(): Calculates and returns the perimeter of the shape.
 scan(): Sets the height and width of the shape.
 run(): Abstract method that will be implemented by subclasses to provide specific functionality.
 
-# Class: Rectangle (inherits from Shape)
+Class: Rectangle (inherits from Shape)
+
 This class represents a rectangular tower.
 It inherits from the Shape abstract class.
 It implements the run() method to either print the area or perimeter of the rectangle based on the difference between its sides.
 
-# Class: Triangle (inherits from Shape)
+Class: Triangle (inherits from Shape)
+
 This class represents a triangular tower.
 It inherits from the Shape abstract class.
 It implements the run() method to either perform a calculation or print the triangle based on the user's choice.
